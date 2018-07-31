@@ -38,4 +38,7 @@
 
     <!-- Filter unampped display modes -->
     <bool name="config_filterDisplayModes">true</bool>
+    
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
