@@ -30,6 +30,9 @@ $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 
+# Inherit OPScreen Recorder
+$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
+
 PRODUCT_NAME := rr_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
