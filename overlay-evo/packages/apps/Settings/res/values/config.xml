@@ -24,4 +24,8 @@
 
     <!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">true</bool>
+    
+    <!-- Multiple Viberation intensitie-->
+    <bool name="config_vibration_supports_multiple_intensities">true</bool>
+
 </resources>
